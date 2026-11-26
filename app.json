@@ -5,18 +5,20 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
+    "plugins": [
+      ["expo-location", {
+        "locationWhenInUsePermission": "Allow Falcon Revive LLC Tracker to verify your location when you clock in or out."
+      }]
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.falconrevive.tracker"
     },
     "android": {
       "package": "com.falconrevive.tracker",
-      "adaptiveIcon": {
-        "backgroundColor": "#090909"
-      }
+      "adaptiveIcon": { "backgroundColor": "#090909" },
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
     },
-    "web": {
-      "bundler": "metro"
-    }
+    "web": { "bundler": "metro" }
   }
 }
