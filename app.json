@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Falcon Revive LLC Tracker",
+    "slug": "falcon-revive-llc-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.falconrevive.tracker"
+    },
+    "android": {
+      "package": "com.falconrevive.tracker",
+      "adaptiveIcon": {
+        "backgroundColor": "#090909"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
